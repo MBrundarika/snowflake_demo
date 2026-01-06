@@ -1,0 +1,6 @@
+create or replace  view v_customer as
+select customer_id,
+       customer_name,
+      email
+from customer
+where email is not null;
