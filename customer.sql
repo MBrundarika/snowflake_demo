@@ -3,5 +3,6 @@ customer_id number,
 customer_name varchar,
 created_date date,
 revised_date date,
-revised_date date
+revised_date date,
+revised_date date,
 );
